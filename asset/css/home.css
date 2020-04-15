@@ -58,6 +58,7 @@ nav ul li a{
 }
 
 #category-bar, #profile {
+    padding: 5px;
     width: 30%;
     float: left;
 }
