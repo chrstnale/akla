@@ -50,3 +50,19 @@ nav ul li a{
     color: rgb(218, 218, 218);
     font-family: 'Helveitca', sans-serif;
 }
+
+#container {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px
+}
+
+#category-bar, #profile {
+    width: 30%;
+    float: left;
+}
+
+#feed {
+    width: 40%;
+    float: left;
+}
