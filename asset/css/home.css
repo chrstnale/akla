@@ -31,6 +31,21 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(109, 108, 108);
+    color: rgb(219, 219, 219);
+    font-family: 'Helvetica', sans-serif;
+}
+
+#logo {
+    position: relative;
+    top: 12px;
+    margin: 0;
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px
+}
+
+#logo a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
     font-family: 'Helveitca', sans-serif;
 }
