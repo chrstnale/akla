@@ -61,10 +61,14 @@ nav ul li a{
 }
 
 #category-bar {
-    background-color: white;
-    padding: 5px;
     width: 25%;
     float: left;
+}
+
+#favorite-topics, #popular-topics {
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 5px;
 }
 
 #feed {
