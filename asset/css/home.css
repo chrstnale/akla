@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(220, 243, 238);
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-position: inside;
 }
 
 nav{
@@ -32,7 +34,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: rgb(219, 219, 219);
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #logo {
@@ -42,7 +44,7 @@ nav ul li a{
     float: left;
     left: 20px;
     display: block;
-    margin: 0px 15px 0px 15px
+    margin: 0px 15px 0px 15px;
 }
 
 #logo a{
@@ -52,18 +54,31 @@ nav ul li a{
 }
 
 #container {
+    position: relative;
     padding: 1%;
     box-sizing: border-box;
     min-height: 500px
 }
 
-#category-bar, #profile {
+#category-bar {
+    background-color: white;
     padding: 5px;
-    width: 30%;
+    width: 25%;
     float: left;
 }
 
 #feed {
-    width: 40%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 50%;
+    float: left;
+}
+
+#profile {
+    background-color: white;
+    padding: 5px;
+    width: 22%;
     float: left;
 }
