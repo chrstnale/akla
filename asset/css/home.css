@@ -87,8 +87,8 @@ nav ul li a{
 
 #poster-photo {
     border-radius: 50%;
-    width: 6.5%;
-    height: 6.5%;
+    width: 5.5%;
+    height: 5.5%;
     background-size: cover;
     float: left;
     position: relative;
@@ -100,9 +100,11 @@ nav ul li a{
     margin-left: 20px;
     padding-top: 0.01px;
     height: 8%;
+    font-size: 16px;
 }
 
 #question {
+    position: relative;
     width: 100%;
     height: 20px;
     margin-top: 10px;
@@ -110,9 +112,65 @@ nav ul li a{
     font-size: 20px;
 }
 
+#user-response {
+    margin-top: 42px;
+}
+
+#user-response ul li {
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+#user-response ul li a {
+    text-decoration: none;
+}
+
 #user-response ul li a img {
     width: 20px;
     height: 20px;
+}
+
+#user-response form{
+    float: right;
+}
+
+#people-response {
+    margin-top: 80px;
+    font-size: 15px;
+}
+
+#response-photo {
+    border-radius: 50%;
+    width: 4.5%;
+    height: 4.5%;
+    background-size: cover;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+
+#comment-bar {
+     margin-top: 10px;
+}
+    
+#comment-bar ul li {
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+    
+#comment-bar ul li a {
+    text-decoration: none;
+}
+    
+#comment-bar ul li a img {
+    width: 15px;
+    height: 15px;
+}
+    
+#comment-bar form{
+    float: right;
 }
 
 #profile {
